@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Open Sans","OpenSans",sans-serif;
+  line-height: 1.35;
+}
+h1 {
+  font-size: 48px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+h2 {
+  font-size: 36px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 400;
+}
+a.button {
+  margin-top: 30px;
+  float: left;
+  font-weight: 400;
+  border-radius: 20px;
+  padding: 7px 26px 8px 26px;
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  clear: left;
+}
+.container {
+  width: 1160px;
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.col-half {
+  width: 50%;
+  margin-left: 48px;
+  padding: 0 10px;
+}
+.button-container {
+  padding-bottom: 60px;
+}
+/* ---- END COMMON ELEMENTS ---- */
+
+/* ---- NAV ---- */
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 10px;
+  height: 32px;
+  font-size: 16px;
+}
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+.top-left {
+  float: left;
+  margin-left: 20px;
+  font-size:14px;
+}
+.heart {
+  padding-right: 20px;
+}
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 15px;
+}
+/* ---- END NAV ---- */
+
+/* ---- HEADER ---- */
+.header {
+  background-color: rgb(32, 101, 136);
+  background-image: url(images/hero-cityscape.svg);
+  background-size: auto;
+  color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.logo-bar {
+  padding-top: 20px;
+  width: 100%;
+}
+.logo-container {
+  width: 130px;
+}
+.logo-container img {
+  width: 95%;
+  float: left;
+  margin-right: 20px;
+}
+.search-bar {
+  width: 69%;
+  float: left;
+  width: calc(100% - 350px);
+}
+.search-bar input {
+  background-color: rgb(31, 82, 111);
+  background-image: url("images/magnifier.png");
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: 35px;
+  height: 38px;
+  padding: 5px 5px 5px 15px;
+  width: 100%;
+  border: 1px solid rgba(255,255,255,0.2);
+  font-size: 16px;
+  font-family: "Open Sans","OpenSans",sans-serif;
+}
+.user-log {
+  width: 182px;
+  float: right;
+  text-align: right;
+  font-size: 16px;
+  color: rgba(255,255,255,0.8);
+}
+.user-log a {
+  text-decoration: none;
+  color: rgba(255,255,255,0.8);
+}
+.user-log a:hover {
+  color: rgba(255,255,255,1);
+}
+.user-log a img {
+  width: 23%;
+  vertical-align: middle;
+}
+.xtra-padd {
+  padding-top: 35px;
+  padding-bottom: 50px;
+}
+.orange {
+  background-color: rgb(240, 146, 51);
+}
+/* ---- END HEADER ---- */
+
+
+/* ---- SECTION 1 ---- */
+#npm-orgs {
+  background-color: rgb(39, 53, 71);
+  padding: 60px 0 60px 0;
+  display: block;
+  height: 480px;
+}
+.collaboration {
+  float: left;
+}
+.collaboration-text {
+  float: left;
+  width: 40%;
+  margin-left: 45px;
+  color: #fff;
+}
+.collaboration-text ul {
+  padding-left: 23px;
+}
+.collaboration-text li{
+  padding-bottom: 20px;
+}
+.tile {
+  background-color: rgb(203, 56, 55);
+}
+.learn-more {
+  clear: left;
+  padding-top: 10px;
+}
+.learn-more a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+.learn-more a:hover {
+  text-decoration: underline;
+}
+/* ---- END SECTION 1 ---- */
+
+
+/* ---- SECTION 2 ---- */
+#what-is-npm {
+  background-image: url("images/npm-is-BOXES.svg");
+  background-size: cover;
+  display: block;
+  height: 509px;
+  color: #fff;
+}
+.what-is-npm {
+  position: relative;
+}
+.what-is-npm-text {
+  position: absolute;
+  left: 60px;
+  top: 110px;
+  width: 30%;
+}
+.navy {
+  background-color: rgb(49, 68, 88);
+}
+/* ---- END SECTION 2 ---- */
+
+
+/* ---- SECTION 3 ---- */
+#what-can-you-make {
+  height: 514px;
+  background-color: #fff;
+}
+#what-can-you-make p {
+  font-size: 16px;
+  color: rgb(135, 145, 156);
+  margin-bottom: 15px;
+}
+.what-you-can-first {
+  text-align: center;
+}
+.what-you-can-first h2{
+  color: rgb(83, 88, 98);
+}
+.features {
+  width: 25%;
+  float: left;
+  text-align: center;
+  padding: 20px;
+  margin-left: 45px;
+}
+.features h3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgb(83, 88, 98);
+}
+.features p {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.features a {
+  color: rgb(208, 74, 73);
+  text-decoration: none;
+}
+.features a:hover {
+  text-decoration: underline;
+}
+/* ---- END SECTION 3 ---- */
